@@ -2057,24 +2057,26 @@
     ]
   },
   "packageFolders": {
-    "/home/maria/.nuget/packages/": {}
+    "C:\\Users\\Maria Eduarda\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/maria/Downloads/ONEDRIVE/GameStore/GameStore.csproj",
+      "projectUniqueName": "C:\\Users\\Maria Eduarda\\OneDrive\\Documentos\\ONEDRIVE\\Store\\GameStore\\GameStore.csproj",
       "projectName": "GameStore",
-      "projectPath": "/home/maria/Downloads/ONEDRIVE/GameStore/GameStore.csproj",
-      "packagesPath": "/home/maria/.nuget/packages/",
-      "outputPath": "/home/maria/Downloads/ONEDRIVE/GameStore/obj/",
+      "projectPath": "C:\\Users\\Maria Eduarda\\OneDrive\\Documentos\\ONEDRIVE\\Store\\GameStore\\GameStore.csproj",
+      "packagesPath": "C:\\Users\\Maria Eduarda\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Maria Eduarda\\OneDrive\\Documentos\\ONEDRIVE\\Store\\GameStore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/maria/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Maria Eduarda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2137,7 +2139,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

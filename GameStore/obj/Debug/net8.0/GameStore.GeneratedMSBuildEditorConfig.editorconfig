@@ -13,31 +13,31 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = GameStore
 build_property.RootNamespace = GameStore
-build_property.ProjectDir = /home/maria/Downloads/ONEDRIVE/GameStore/
+build_property.ProjectDir = C:\Users\Maria Eduarda\OneDrive\Documentos\ONEDRIVE\Store\GameStore\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = false
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /home/maria/Downloads/ONEDRIVE/GameStore
+build_property.MSBuildProjectDirectory = C:\Users\Maria Eduarda\OneDrive\Documentos\ONEDRIVE\Store\GameStore
 build_property._RazorSourceGeneratorDebug = 
 
-[/home/maria/Downloads/ONEDRIVE/GameStore/App.razor]
+[C:/Users/Maria Eduarda/OneDrive/Documentos/ONEDRIVE/Store/GameStore/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/maria/Downloads/ONEDRIVE/GameStore/Pages/EditGame.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRWRpdEdhbWUucmF6b3I=
+[C:/Users/Maria Eduarda/OneDrive/Documentos/ONEDRIVE/Store/GameStore/Pages/EditGame.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdEdhbWUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/maria/Downloads/ONEDRIVE/GameStore/Pages/Home.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSG9tZS5yYXpvcg==
+[C:/Users/Maria Eduarda/OneDrive/Documentos/ONEDRIVE/Store/GameStore/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/maria/Downloads/ONEDRIVE/GameStore/_Imports.razor]
+[C:/Users/Maria Eduarda/OneDrive/Documentos/ONEDRIVE/Store/GameStore/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/maria/Downloads/ONEDRIVE/GameStore/Layout/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = TGF5b3V0L01haW5MYXlvdXQucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-t9o3qy0iar
+[C:/Users/Maria Eduarda/OneDrive/Documentos/ONEDRIVE/Store/GameStore/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-guhwrnwgz5
