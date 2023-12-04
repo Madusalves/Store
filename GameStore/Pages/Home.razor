@@ -1,0 +1,64 @@
+﻿@page "/"
+@using Models
+@*Can navigate to other pages in your Blazor app, as well as external pages.*@
+@inject NavigationManager NavigationManager 
+
+<PageTitle>Game Catalog</PageTitle>
+
+<h1>Catalog</h1>
+
+<div class="row mb-4">
+    <div class="col-sm-6">
+        <button type="button" class="btn-btn-primary" @onclick="CreateGame">New Game</button>
+    </div>
+</div>
+
+@if(games is null)
+{
+    <p><em>Loading...</em></p>
+}else{  
+<table class="table table-hover">
+    <thead class="table-dark">
+        <th>Id</th>
+        <th>Name</th>
+        <th>Price (USD)</th>
+        <th>Platforms</th>
+        <th>Release Date</th>
+        <th>Genre</th>
+        <th></th>
+    </thead>
+    <tbody>
+        @foreach (var game in games)
+        {
+            <tr>
+                <td>@game.Id</td>
+                <td>@game.Name</td>
+                <td>@game.Price</td>
+                <td>@game.Platforms</td>
+                <td>@game.Genre</td>
+                <td>@game.ReleaseDate.ToString("MM/dd/yyyy")</td>
+            </tr>
+        }
+        
+    </tbody>
+</table>
+}
+
+
+@*Invoking the list method*@
+
+@code{
+    private Game[]? games;
+
+    // Perform synchronous initialization operations.
+    protected override void OnInitialized()
+    {
+        games = Client.GameClient.Getgames();
+    }
+
+    private void CreateGame()
+    {
+        //Go to the create games page
+        NavigationManager.NavigateTo("/game");
+    }
+}

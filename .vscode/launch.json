@@ -1,0 +1,14 @@
+{
+    "configurations": [
+    {
+        "name": "Launch and Debug Hosted Blazor WebAssembly App",
+        "type": "blazorwasm",
+        "request": "launch",
+        "hosted": true,
+        "program": "${workspaceFolder}/bin/Debug/<target-framework>/<project-name.dll>",
+        "cwd": "${workspaceFolder}/GameStore",
+        "url": "http://localhost:5003",
+        "browser": "chrome"
+    }
+    ]
+}
